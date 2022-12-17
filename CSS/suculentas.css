@@ -1,4 +1,102 @@
-/* CATALOGO */
+/* CATALOGO PHONE */
+@media screen and ( max-width: 990px ){
+
+    .catalogo {
+        *background-color: aqua;
+        *margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        *font-weight: 500;
+        *font-size: medium;
+    }
+
+    /* TARJETA */
+
+    .tarjeta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #feefdd;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .tarjeta img {
+        border-radius: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .tarjeta-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+        /* ZONA EN CONTRUCCIÓN */
+    .contrucción-1, .contrucción-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        height: 500px;
+        background-image: url(../image/construccion.jpg);
+        background-size: cover;
+        color: #ffffff;
+        text-shadow: 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black;
+    }
+    
+        /* FIN ZONA EN CONTRUCCIÓN */
+
+    /* FIN DE LA TARJETA */
+
+    .titulo {
+        width: auto;
+        margin: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+        *background-color: rgb(127, 47, 10);
+    }
+    
+    .contenedor-catalogo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-around;
+        width: 95%;
+        margin: 10px;
+        position: relative;        
+    }
+    
+    .cajas-catalogo {
+        width: 85%;
+        gap: 0.6%;
+        border-radius: 10px;  
+    }
+    
+    .cajas-catalogo img {
+        width: 100%;
+        margin-right: 4px;
+        line-height: 1.34;
+        cursor: pointer;
+    }
+
+    
+
+}
+/* FIN CATALOGO PHONE */
+
+/* CATALOGO PC*/
 
 @media screen and ( min-width: 991px ){
 
@@ -38,7 +136,8 @@
     .cajas-catalogo {
         width: 32.55%;
         gap: 0.6%;
-        border-radius: 10px;  
+        border-radius: 10px;
+        *background-color: rgb(255, 232, 215);
     }
     
     .cajas-catalogo img {
@@ -46,53 +145,53 @@
         margin-right: 4px;
         line-height: 1.34;
         cursor: pointer;
+        border-radius: 10px;
     }
 
-}
+        /* TARJETA */
 
+        .tarjeta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #feefdd;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px;
+        }
+    
+        .tarjeta img {
+            border-radius: 10px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+    
+        .tarjeta-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        /* FIN DE LA TARJETA */
 
-/* FIN CATALOGO */
-
-/* CATALOGO PHONE */
-@media screen and ( max-width: 990px ){
-
-
-    .titulo {
-        width: auto;
-        margin: 10px;
-        position: relative;
+        
+        /* ZONA EN CONTRUCCIÓN */
+    .contrucción-1, .contrucción-2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        align-content: space-around;
-        background-color: rgb(182, 157, 145);
+        align-content: center;
+        width: 100vw;
+        height: 500px;
+        background-image: url(../image/construccion.jpg);
+        background-size: cover;
+        color: #ffffff;
+        text-shadow: 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black;
     }
     
-    .contenedor-catalogo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: space-around;
-        width: 95%;
-        margin: 10px;
-        position: relative;
-        
-    }
-    
-    .cajas-catalogo {
-        width: 85%;
-        gap: 0.6%;
-        border-radius: 10px;  
-    }
-    
-    .cajas-catalogo img {
-        width: 100%;
-        margin-right: 4px;
-        line-height: 1.34;
-        cursor: pointer;
-    }
+        /* FIN ZONA EN CONTRUCCIÓN */
 
 }
-/* FIN CATALOGO PHONE */
+
+/* FIN CATALOGO PC*/
